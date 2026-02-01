@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    background-color: #090c2c;
+}
+
+h1{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suggestion{
+    color: #fff;
+    margin-top: 10px;
+}
+.suggestion p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    word-spacing: 0.3em;
+    letter-spacing: 0.1rem;
+}
+
+#game-board {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18), 0 1.5px 4px rgba(0,0,0,0.12);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+.cell:nth-child(1), .cell:nth-child(2), .cell:nth-child(3),
+.cell:nth-child(4), .cell:nth-child(5), .cell:nth-child(6) {
+    border-bottom: 3px solid #333;
+}
+
+.cell:nth-child(1), .cell:nth-child(4), .cell:nth-child(7),
+.cell:nth-child(2), .cell:nth-child(5), .cell:nth-child(8) {
+    border-right: 3px solid #333;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#restart-button {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    flex-direction: row;
+}
+
+#start-button {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    flex-direction: row;
+}
+
+#start-button:hover {
+    background-color: #000000;
+    color: azure;
+}
+#restart-button:hover {
+    background-color: #000000;
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+
+    .cell {
+        width: 80px;
+        height: 80px;
+        font-size: 1.5rem;
+    }
+}
