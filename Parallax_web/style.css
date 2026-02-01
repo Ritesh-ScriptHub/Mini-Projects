@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000000;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #131213;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+nav a:hover
+{
+    color: #00fff0;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    background-color: #110f0f;
+    padding: 13px;
+    border-radius: 8px;
+}
+
+section {
+    transition: 0.5 ease-in-out;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: solid #ffffff 0px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#part_1 {
+    background: url('assets/pic10.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.part_1_inner {
+    padding-top: 19%;
+    padding-bottom: 19%;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.part_1_inner a button {
+    margin-top: 10px;
+    margin-left: 45%;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #535050;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.part_1_inner a button:hover,
+.part_2_inner a button:hover,
+.part_3_inner a button:hover,
+.part_4_inner a button:hover,
+.part_5_inner a button:hover
+{
+    background-color: #272525;
+    color: rgb(232, 255, 104);
+    text-decoration: underline;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 20);
+}
+
+#part_2 {
+    background: url('assets/pic6.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.part_2_inner {
+    padding-top: 19%;
+    padding-bottom: 19%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.part_2_inner a button {
+    margin-top: 10px;
+    margin-left: 45%;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #535050;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#part_3 {
+    background: url('assets/pic2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.part_3_inner {
+    padding-top: 19%;
+    padding-bottom: 19%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.part_3_inner a button {
+    margin-top: 10px;
+    margin-left: 45%;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #535050;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#part_4 {
+    background: url('assets/pic5.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.part_4_inner {
+    padding-top: 19%;
+    padding-bottom: 19%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.part_4_inner a button {
+    margin-top: 10px;
+    margin-left: 45%;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #535050;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#part_5 {
+    background: url('assets/pic9.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.part_5_inner {
+    padding-top: 19%;
+    padding-bottom: 19%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.part_5_inner a button {
+    margin-top: 10px;
+    margin-left: 45%;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #535050;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 32px;
+    color: #00fff0;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+p {
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: justify;
+    line-height: 35px;
+    margin: 0 100px 50px;
+}
+
+p a button {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.click button {
+    margin-top: 30px;
+    margin-left: 45%;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #2c1010;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.click button:hover {
+    background-color: #2e0a0a;
+    color: #00fff0;
+}
+
+.backToTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ac1735;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+
+.backToTopBtn span {
+    color: #ffffff;
+    font-size: 18px;
+    transition: 0.3s ease-out;
+}
+
+.backToTopBtn:hover {
+    background-color: #ff0033;
+}
+
+.backToTopBtn:hover span {
+    transform: translateY(-4px)
+}
