@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    
+}
+/* header starts here */
+header{
+    /* position: sticky; */
+    background-color: #212125;
+}
+
+.main-header{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    background-color: black;
+}
+/* Gumroad logo */
+.logo p{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 42px;
+    margin: 0;
+    /* background-color: black; */
+}
+.logo p a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: inherit;
+}
+/* navigation  bar */
+.main-nav ul{
+    display: flex;
+    text-decoration:  none;
+    list-style: none;
+    gap: 40px;
+    position:relative ;
+    transition: 0.5s ease-in-out;
+    background-color: black;
+}
+
+.main-nav ul li a{
+    text-decoration:  none;
+    color: #ffff;
+    font-size: large;
+    background-color: inherit;
+}
+
+.main-nav ul li{
+    padding: 11px;
+    transition: 0.1s ease-in;
+    background-color: inherit;
+}
+
+.main-nav ul li:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    /* padding: 10px; */
+    box-shadow: 0px 0px 10px rgb(85, 84, 84);
+}
+.btn{
+    display: flex;
+}
+/* login */
+.btn-log{
+    margin: 0px;
+    color: #ffff;
+    padding: 30px 50px;
+    font-size: large;
+    border: none;
+    border-left: 1px solid #777;
+    cursor: pointer;
+    background-color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-log:hover{
+    color: #000;
+    background-color: #fff;
+}
+/* Start seling */
+.btn-sell{
+    margin: 0px;
+    color: #ffff;
+    font-size: large;
+    padding: 30px 50px;
+    background-color: #fa9052;
+    border: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btn-sell:hover{
+    background-color:#fff;
+    color: #000;
+}
+
+/* search */
+form.example input[type=text] {
+    margin-top: 30px;
+    margin-bottom: 23px;
+    margin-left: 5%;
+    font-size: 17px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    width: 84%;
+    color: #ffff;
+    background: #000;
+    background-image: url('assets/icons8-search-30.png');
+    background-position: 10px 10px; 
+    background-size: 21px;
+    padding: 13px 20px 12px 45px;
+    background-repeat: no-repeat;
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
+}
+/* Other Navigation under Header */
+.navv{
+    border-bottom: 1px solid grey;
+    padding-bottom: 29px;
+}
+
+.oth-nav a{
+    display:inline;
+    text-decoration: none;
+    color: #ffff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Section part */
+section{
+    text-align: center;
+}
+
+.dropbtn {
+    color: white;
+    padding: 10px 13px;
+    font-size: 16px;
+    border: 0px solid #ddd;
+    border-radius: 25px;
+    background-color: #212125;
+}
+  
+.dropdown {
+    padding: 2px;
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #212125;
+    min-width: 130px;
+    box-shadow: 3px 3px 2px #ffff;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    background-color: rgb(233, 165, 64);
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #274242;
+color: #ffff;}
+  
+.dropdown:hover .dropdown-content {display: block;
+    /* margin-top: 0px; */
+    padding-top: 0px;
+    text-align: center;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: black;
+    box-shadow: 3px 3px 0px #ddd;
+    transform:translate(-6px,-6px);
+}
+/* Header ends here */
+
+/* Footer starts here */
+
+footer {
+    /* display: flex; */
+    padding: 90px;
+    background-color: #000;
+}
+
+.foot{
+    display: flex;
+    line-height: 25px;
+}
+
+.subscribe h1 {
+    display: flex;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #000;
+    line-height: 50px;
+}
+
+.frm {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.frm input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #333;
+}
+
+.frm button {
+    background-color: #f36f23;
+    color: #000;
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.frm button:hover {
+    background-color: #fa9052;
+}
+
+/* Links Section */
+.links-container {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 80px; */
+    /* margin: 30px 0; */
+}
+
+.links ul {
+    list-style: none;
+    margin: 0 30px;
+}
+
+.links ul li {
+    margin: 5px 0;
+    padding-left: 150px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.links ul li a:hover {
+    color: #f36f23;
+}
+
+/* Social Media Icons */
+.social-icons {
+    
+    margin: 20px 0;
+    transition: 0.5s ease-in-out;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-logo :hover{
+    fill: #f36f23;
+    
+    /* box-shadow: 3px 3px 6px #daaa28; */
+}
+
+/* Copyright Section */
+.copyright p {
+    /* display: flex; */
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #777;
+}
